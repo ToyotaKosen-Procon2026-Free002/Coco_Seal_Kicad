@@ -1,0 +1,6 @@
+*.bak
+*.bck
+*.kicad_prl
+*-bak
+*-cache.lib
+_autosave-*
