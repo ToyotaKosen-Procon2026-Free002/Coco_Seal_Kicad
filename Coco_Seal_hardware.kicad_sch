@@ -5,14 +5,14 @@
 	(uuid "32cbe908-45a7-4343-8d65-8d0ee985ed0b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Battery_Management:LTC4055"
+		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -6.35 13.97 0)
+				(at -6.604 11.684 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "LTC4055"
-				(at 3.81 13.97 0)
+			(property "Value" "TP4056-42-ESOP8"
+				(at 10.16 11.684 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,19 +31,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4055fb.pdf"
-				(at 0 -12.7 0)
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+				(at 0.508 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -53,7 +42,29 @@
 					)
 				)
 			)
-			(property "Description" "USB Power Controller and Li-Ion Charger (4.2V Float Voltage)"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
+				(at 0.508 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "lithium-ion lithium-polymer Li-Poly"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +75,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "charger PMIC Liion USB"
+			(property "ki_fp_filters" "*SO*3.9x4.*P1.27mm*EP2.4*x3.3*mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -75,36 +86,11 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LTC4055_0_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LTC4055_1_1"
-				(pin passive line
-					(at -10.16 10.16 0)
+			(symbol "TP4056-42-ESOP8_1_0"
+				(pin input line
+					(at 10.16 0 180)
 					(length 2.54)
-					(hide yes)
-					(name "IN"
+					(name "TEMP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -120,9 +106,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 5.08 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "BAT"
+					(name "PROG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -137,10 +123,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 10.16 180)
+				(pin power_in line
+					(at 0 -12.7 90)
 					(length 2.54)
-					(name "OUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -156,9 +142,9 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 10.16 0)
+					(at 0 12.7 270)
 					(length 2.54)
-					(name "IN"
+					(name "V_{CC}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,10 +159,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 7.62 0)
+				(pin power_out line
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "WALL"
+					(name "BAT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -191,10 +177,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -5.08 180)
+				(pin open_collector line
+					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "SHDN"
+					(name "~{STDBY}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -202,132 +188,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "SUSP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "HPWR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "CLPROG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "PROG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "TIMER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{ACPR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -345,25 +205,7 @@
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VNTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -372,16 +214,16 @@
 					)
 				)
 				(pin input line
-					(at 10.16 0 180)
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "NTC"
+					(name "CE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -390,22 +232,34 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at -2.54 -12.7 90)
 					(length 2.54)
-					(hide yes)
-					(name "GND"
+					(name "EPAD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "17"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "TP4056-42-ESOP8_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -4083,16 +3937,22 @@
 		(uuid "07e238ba-92e8-4ecd-adb0-e91801ecafaa")
 	)
 	(junction
-		(at 85.09 81.28)
+		(at 57.15 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13e59a8b-90c8-4127-8737-9c79180951e2")
+		(uuid "2dd38284-a502-4314-9503-62a304601c03")
 	)
 	(junction
 		(at 85.09 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "330cc56f-3695-47f5-99c5-ebdfd0617dfe")
+	)
+	(junction
+		(at 85.09 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ea1c8b2-b7cd-4504-b679-f1b8ee657060")
 	)
 	(junction
 		(at 179.07 115.57)
@@ -4117,6 +3977,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d3e461b-5e71-42f7-b6c7-ea95407c0f6b")
+	)
+	(junction
+		(at 62.23 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d91fd5d-6242-4ab2-a5f4-55a22b915c0c")
 	)
 	(junction
 		(at 123.19 146.05)
@@ -4149,6 +4015,16 @@
 			(type default)
 		)
 		(uuid "0b12f71b-7256-4e53-89c4-72c5be28cf21")
+	)
+	(bus
+		(pts
+			(xy 111.76 82.55) (xy 85.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2db4bb-bf95-4b06-8e3f-31ea458a5fd0")
 	)
 	(bus
 		(pts
@@ -4342,6 +4218,16 @@
 	)
 	(bus
 		(pts
+			(xy 57.15 93.98) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0a1f53-7b57-461f-8a5b-fffcc12e2ff6")
+	)
+	(bus
+		(pts
 			(xy 127 151.13) (xy 139.7 151.13)
 		)
 		(stroke
@@ -4362,6 +4248,16 @@
 	)
 	(bus
 		(pts
+			(xy 111.76 76.2) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c5f6af-568f-428b-92e2-77e17a9f2a1b")
+	)
+	(bus
+		(pts
 			(xy 119.38 119.38) (xy 168.91 119.38)
 		)
 		(stroke
@@ -4369,6 +4265,16 @@
 			(type default)
 		)
 		(uuid "55867d98-5136-447b-93a9-c5457ba0377e")
+	)
+	(bus
+		(pts
+			(xy 62.23 50.8) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba48b9d-faed-4770-844b-7cca3a1a311b")
 	)
 	(wire
 		(pts
@@ -4432,16 +4338,6 @@
 	)
 	(bus
 		(pts
-			(xy 85.09 81.28) (xy 114.3 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64a3f0e3-a4bd-413c-b4ee-dff510c26bb1")
-	)
-	(bus
-		(pts
 			(xy 80.01 138.43) (xy 80.01 171.45)
 		)
 		(stroke
@@ -4452,7 +4348,7 @@
 	)
 	(bus
 		(pts
-			(xy 85.09 80.01) (xy 85.09 88.9)
+			(xy 85.09 80.01) (xy 85.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4509,6 +4405,16 @@
 			(type default)
 		)
 		(uuid "7bec41e3-3f5e-4dcf-8085-39961755341a")
+	)
+	(bus
+		(pts
+			(xy 111.76 50.8) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4bb50d-82da-4110-abe2-e317118c65c3")
 	)
 	(bus
 		(pts
@@ -4602,6 +4508,26 @@
 	)
 	(bus
 		(pts
+			(xy 85.09 82.55) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6ce878-54c3-47a6-9862-365d59329615")
+	)
+	(bus
+		(pts
+			(xy 40.64 93.98) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7ee7ae-12fa-4e88-8a06-c98bcc451519")
+	)
+	(bus
+		(pts
 			(xy 160.02 151.13) (xy 160.02 189.23)
 		)
 		(stroke
@@ -4619,6 +4545,16 @@
 			(type default)
 		)
 		(uuid "9f527c10-5cbb-4d4e-bbfd-ab50acae749b")
+	)
+	(bus
+		(pts
+			(xy 55.88 55.88) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11faba9-47ca-4fbe-ad89-a96b7f70e3c0")
 	)
 	(bus
 		(pts
@@ -4802,7 +4738,7 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 189.23) (xy 57.15 88.9)
+			(xy 57.15 189.23) (xy 57.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5606,8 +5542,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery_Management:LTC4055")
-		(at 114.3 66.04 0)
+		(lib_id "Battery_Management:TP4056-42-ESOP8")
+		(at 111.76 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5616,29 +5552,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6fb30742-7bb1-4345-8162-a840400e476e")
+		(uuid "7b6306e3-18a2-45c8-b9a3-9a174ce5e3ab")
 		(property "Reference" "U6"
-			(at 114.3 48.26 0)
+			(at 113.9033 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LTC4055"
-			(at 114.3 50.8 0)
+		(property "Value" "TP4056-42-ESOP8"
+			(at 113.9033 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm"
-			(at 114.3 88.9 0)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+			(at 112.268 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5648,8 +5586,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4055fb.pdf"
-			(at 114.3 78.74 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+			(at 111.76 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,8 +5597,8 @@
 				)
 			)
 		)
-		(property "Description" "USB Power Controller and Li-Ion Charger (4.2V Float Voltage)"
-			(at 114.3 66.04 0)
+		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
+			(at 112.268 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5669,57 +5607,33 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "13"
-			(uuid "ee114ee5-2bff-442e-80e4-1e3af2bd0249")
-		)
-		(pin "15"
-			(uuid "e901330a-a3e4-488b-af11-555171c83260")
-		)
-		(pin "16"
-			(uuid "28f202a5-c5e6-4a31-846b-1e5881a5cb27")
-		)
-		(pin "14"
-			(uuid "047f4a8e-7841-4302-964a-f4f8608f0900")
-		)
-		(pin "12"
-			(uuid "efd9b8ce-7e34-47c9-8056-ec550cd2a89a")
-		)
-		(pin "17"
-			(uuid "59f94efd-73eb-4f4a-945b-4fd2b20bb020")
 		)
 		(pin "6"
-			(uuid "e4a50926-ab18-46f8-88b6-4a532138d2b8")
-		)
-		(pin "7"
-			(uuid "beebee87-fefb-4034-a1f6-9c99503e2407")
-		)
-		(pin "9"
-			(uuid "1c2eb7de-6cc1-4b89-bc0f-ccf33ddb2791")
-		)
-		(pin "2"
-			(uuid "a6f1eb39-8803-45dc-9381-9938b9d16c7b")
-		)
-		(pin "10"
-			(uuid "8d4909ee-9589-4a6f-8922-7e5c662cad25")
-		)
-		(pin "3"
-			(uuid "c7d1c8e6-2659-46b2-bcf0-6c8386742418")
+			(uuid "3bcc6626-d662-430a-b287-8ef492b90ecb")
 		)
 		(pin "5"
-			(uuid "caa5f9df-4a48-4774-9e5f-5f8a1a6480e4")
-		)
-		(pin "11"
-			(uuid "f0b954a3-c2a1-40b2-97cc-2e7053c1dee2")
+			(uuid "718574b8-2f56-4934-936a-0136dbe268ea")
 		)
 		(pin "1"
-			(uuid "605fca29-25f8-491f-87ce-975029f15cb3")
+			(uuid "95191159-8d34-4287-9b5b-65859168d262")
 		)
-		(pin "8"
-			(uuid "172b35fc-1502-40ee-a3a6-f6e9cb52fa8f")
+		(pin "2"
+			(uuid "95e21cf0-07fd-4ef6-a200-5dedf8ea4698")
+		)
+		(pin "3"
+			(uuid "87784166-421f-4a2c-b873-67c5f1e6c445")
 		)
 		(pin "4"
-			(uuid "7f42ba1d-7ca5-4b3a-a435-a7cfeb07d483")
+			(uuid "af10f24d-2939-48d9-8318-62d4b0f7ad8f")
+		)
+		(pin "7"
+			(uuid "8b9cb65a-301c-49f7-906e-9ec011ddee61")
+		)
+		(pin "9"
+			(uuid "2103ba0d-a040-46c8-b856-c45e18be2451")
+		)
+		(pin "8"
+			(uuid "5826c936-dcc4-405e-adf9-ad631339544d")
 		)
 		(instances
 			(project "Coco_Seal_hardware"
