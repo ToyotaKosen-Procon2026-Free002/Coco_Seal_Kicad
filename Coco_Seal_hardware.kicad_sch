@@ -3815,6 +3815,16 @@
 	)
 	(bus
 		(pts
+			(xy 119.38 138.43) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4c9355-10cf-4498-9642-1c6b8869aeab")
+	)
+	(bus
+		(pts
 			(xy 76.2 173.99) (xy 134.62 173.99)
 		)
 		(stroke
@@ -3875,7 +3885,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 118.11) (xy 182.88 140.97)
+			(xy 182.88 118.11) (xy 182.88 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3885,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 140.97) (xy 186.69 140.97)
+			(xy 182.88 143.51) (xy 186.69 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4442,7 +4452,7 @@
 	)
 	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 196.85 138.43 0)
+		(at 196.85 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4453,17 +4463,6 @@
 		(fields_autoplaced yes)
 		(uuid "215f8db3-c8c0-4421-a449-fb2b32ea6843")
 		(property "Reference" "U4"
-			(at 205.74 137.1599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ER_OLEDM0.91_1x-I2C"
 			(at 205.74 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4474,8 +4473,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "ER_OLEDM0.91_1x-I2C"
+			(at 205.74 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
-			(at 214.884 151.13 0)
+			(at 214.884 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,7 +4496,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 239.522 153.162 0)
+			(at 239.522 155.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4507,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 223.52 155.194 0)
+			(at 223.52 157.734 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
