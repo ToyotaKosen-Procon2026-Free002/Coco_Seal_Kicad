@@ -3945,6 +3945,16 @@
 	)
 	(bus
 		(pts
+			(xy 73.66 107.95) (xy 53.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ced9bb-4db2-4251-8246-c85b44221ca9")
+	)
+	(bus
+		(pts
 			(xy 66.04 130.81) (xy 124.46 130.81)
 		)
 		(stroke
@@ -4135,6 +4145,16 @@
 	)
 	(bus
 		(pts
+			(xy 53.34 77.47) (xy 177.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e8e974-ec25-4832-b0d0-2d88d4c9330a")
+	)
+	(bus
+		(pts
 			(xy 62.23 100.33) (xy 62.23 134.62)
 		)
 		(stroke
@@ -4142,6 +4162,16 @@
 			(type default)
 		)
 		(uuid "e49384c1-30ad-4d7d-8ba4-ba829bab539a")
+	)
+	(bus
+		(pts
+			(xy 53.34 107.95) (xy 53.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdf96db-95ee-4efa-af7a-b83fb0b42925")
 	)
 	(bus
 		(pts
@@ -4710,7 +4740,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 180.34 78.74 0)
+		(at 180.34 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4721,7 +4751,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d826d31-67ea-4f1a-9d65-a7cf63e1cc35")
 		(property "Reference" "BZ1"
-			(at 184.15 77.4699 0)
+			(at 184.15 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4732,7 +4762,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 184.15 80.0099 0)
+			(at 184.15 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4743,7 +4773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.705 76.2 90)
+			(at 179.705 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,7 +4784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.705 76.2 90)
+			(at 179.705 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4765,7 +4795,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 180.34 78.74 0)
+			(at 180.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
