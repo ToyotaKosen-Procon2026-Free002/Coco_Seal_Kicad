@@ -1835,146 +1835,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Display_Graphic:ER_OLEDM0.91_1x-I2C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3915,7 +3775,7 @@
 	)
 	(bus
 		(pts
-			(xy 59.69 102.87) (xy 59.69 138.43)
+			(xy 69.85 146.05) (xy 69.85 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3925,7 +3785,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 102.87) (xy 59.69 102.87)
+			(xy 83.82 146.05) (xy 69.85 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3935,7 +3795,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 130.81) (xy 124.46 110.49)
+			(xy 134.62 173.99) (xy 134.62 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3945,7 +3805,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 107.95) (xy 53.34 107.95)
+			(xy 83.82 151.13) (xy 63.5 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3955,7 +3815,7 @@
 	)
 	(bus
 		(pts
-			(xy 66.04 130.81) (xy 124.46 130.81)
+			(xy 76.2 173.99) (xy 134.62 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3965,7 +3825,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 110.49) (xy 129.54 110.49)
+			(xy 134.62 153.67) (xy 139.7 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3973,9 +3833,19 @@
 		)
 		(uuid "3038261e-e244-40c0-b10e-6ffd2ab2587e")
 	)
+	(wire
+		(pts
+			(xy 60.96 153.67) (xy 60.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31256ed1-92e6-472a-8b5b-618f484b3970")
+	)
 	(bus
 		(pts
-			(xy 73.66 95.25) (xy 69.85 95.25)
+			(xy 83.82 138.43) (xy 80.01 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3985,7 +3855,7 @@
 	)
 	(bus
 		(pts
-			(xy 59.69 138.43) (xy 119.38 138.43)
+			(xy 69.85 181.61) (xy 129.54 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3995,7 +3865,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 107.95) (xy 129.54 107.95)
+			(xy 127 151.13) (xy 139.7 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4003,9 +3873,29 @@
 		)
 		(uuid "4f2a8028-ac5f-4513-8acc-0c54b8d65165")
 	)
+	(wire
+		(pts
+			(xy 182.88 118.11) (xy 182.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c9418c-cc4b-4697-877c-1b1f4ba36757")
+	)
+	(wire
+		(pts
+			(xy 182.88 140.97) (xy 186.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5fed59-1979-4884-82dd-a9861fc8dd87")
+	)
 	(bus
 		(pts
-			(xy 116.84 142.24) (xy 116.84 107.95)
+			(xy 127 185.42) (xy 127 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4015,7 +3905,7 @@
 	)
 	(bus
 		(pts
-			(xy 62.23 134.62) (xy 121.92 134.62)
+			(xy 72.39 177.8) (xy 132.08 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4025,7 +3915,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 113.03) (xy 129.54 113.03)
+			(xy 137.16 156.21) (xy 139.7 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4035,7 +3925,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 95.25) (xy 69.85 128.27)
+			(xy 80.01 138.43) (xy 80.01 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4045,7 +3935,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 100.33) (xy 62.23 100.33)
+			(xy 83.82 143.51) (xy 72.39 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4055,7 +3945,7 @@
 	)
 	(bus
 		(pts
-			(xy 66.04 97.79) (xy 66.04 130.81)
+			(xy 76.2 140.97) (xy 76.2 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4065,7 +3955,7 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 138.43) (xy 119.38 105.41)
+			(xy 129.54 181.61) (xy 129.54 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4075,7 +3965,7 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 105.41) (xy 129.54 105.41)
+			(xy 129.54 148.59) (xy 139.7 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4085,7 +3975,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 115.57) (xy 129.54 115.57)
+			(xy 132.08 158.75) (xy 139.7 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +3985,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 134.62) (xy 121.92 115.57)
+			(xy 132.08 177.8) (xy 132.08 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4105,7 +3995,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 97.79) (xy 66.04 97.79)
+			(xy 83.82 140.97) (xy 76.2 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4113,9 +4003,19 @@
 		)
 		(uuid "d1e30ca4-4f15-4aec-8d34-e4c56ade8e39")
 	)
+	(wire
+		(pts
+			(xy 83.82 153.67) (xy 60.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4aa54e6-6ed6-4ce9-a25c-ff1b9f232774")
+	)
 	(bus
 		(pts
-			(xy 69.85 128.27) (xy 127 128.27)
+			(xy 80.01 171.45) (xy 137.16 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4125,7 +4025,7 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 142.24) (xy 116.84 142.24)
+			(xy 67.31 185.42) (xy 127 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4135,7 +4035,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 105.41) (xy 57.15 105.41)
+			(xy 83.82 148.59) (xy 67.31 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4145,7 +4045,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 77.47) (xy 177.8 77.47)
+			(xy 63.5 120.65) (xy 187.96 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4155,7 +4055,7 @@
 	)
 	(bus
 		(pts
-			(xy 62.23 100.33) (xy 62.23 134.62)
+			(xy 72.39 143.51) (xy 72.39 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4165,7 +4065,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 107.95) (xy 53.34 77.47)
+			(xy 63.5 151.13) (xy 63.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4175,7 +4075,7 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 105.41) (xy 57.15 142.24)
+			(xy 67.31 148.59) (xy 67.31 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4183,9 +4083,19 @@
 		)
 		(uuid "f3ca0aac-7c4d-4794-a5a4-4e64869928bd")
 	)
+	(wire
+		(pts
+			(xy 60.96 118.11) (xy 182.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc375e77-b782-4be7-889c-7049edcfb3d1")
+	)
 	(bus
 		(pts
-			(xy 127 128.27) (xy 127 113.03)
+			(xy 137.16 171.45) (xy 137.16 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4195,7 +4105,7 @@
 	)
 	(symbol
 		(lib_id "ESP32-C3-WROOM-02-N4:ESP32-C3-WROOM-02-N4")
-		(at 91.44 105.41 0)
+		(at 101.6 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4206,7 +4116,7 @@
 		(fields_autoplaced yes)
 		(uuid "12f51087-8f54-46f9-a5c4-f14050b094a4")
 		(property "Reference" "U1"
-			(at 91.44 80.01 0)
+			(at 101.6 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4216,7 +4126,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02-N4"
-			(at 91.44 82.55 0)
+			(at 101.6 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4226,7 +4136,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-C3-WROOM-02-N4:MODULE_ESP32-C3-WROOM-02-H4"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4238,7 +4148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4249,7 +4159,7 @@
 			)
 		)
 		(property "Description" "WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +85 C"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4261,7 +4171,7 @@
 			)
 		)
 		(property "MF" "Espressif Systems"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4273,7 +4183,7 @@
 			)
 		)
 		(property "PACKAGE" "Package"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +4195,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4297,7 +4207,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4309,7 +4219,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=eda"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +4231,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4333,7 +4243,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=snap"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4255,7 @@
 			)
 		)
 		(property "MP" "ESP32-C3-WROOM-02-N4"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4357,7 +4267,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5683419&manufacturer=Espressif Systems&part_name=ESP32-C3-WROOM-02-N4&search_term=esp32-c3-wroom-02-n4"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4279,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,7 +4291,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,7 +4303,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda"
-			(at 91.44 105.41 0)
+			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,7 +4442,7 @@
 	)
 	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 182.88 102.87 0)
+		(at 196.85 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4543,7 +4453,7 @@
 		(fields_autoplaced yes)
 		(uuid "215f8db3-c8c0-4421-a449-fb2b32ea6843")
 		(property "Reference" "U4"
-			(at 191.77 101.5999 0)
+			(at 205.74 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4554,7 +4464,7 @@
 			)
 		)
 		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 191.77 104.1399 0)
+			(at 205.74 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4565,7 +4475,7 @@
 			)
 		)
 		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
-			(at 200.914 115.57 0)
+			(at 214.884 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4576,7 +4486,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 225.552 117.602 0)
+			(at 239.522 153.162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,7 +4497,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 209.55 119.634 0)
+			(at 223.52 155.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4740,7 +4650,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 180.34 80.01 0)
+		(at 190.5 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4751,7 +4661,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d826d31-67ea-4f1a-9d65-a7cf63e1cc35")
 		(property "Reference" "BZ1"
-			(at 184.15 78.7399 0)
+			(at 194.31 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4762,7 +4672,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 184.15 81.2799 0)
+			(at 194.31 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4773,7 +4683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.705 77.47 90)
+			(at 189.865 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,7 +4694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.705 77.47 90)
+			(at 189.865 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4705,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 180.34 80.01 0)
+			(at 190.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,88 +5104,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 161.29 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6627de4-1db1-4fcd-83d2-813dbc7f615b")
-		(property "Reference" "R1"
-			(at 163.83 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 163.83 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 159.512 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1bb927ff-87ec-4731-ab4f-acbfa8a8ecce")
-		)
-		(pin "1"
-			(uuid "1a235987-47a7-4bfc-8018-8a7b7fb85895")
-		)
-		(instances
-			(project "Coco_Seal_hardware"
-				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Plug_USB2.0")
 		(at 34.29 93.98 0)
 		(unit 1)
@@ -5390,7 +5218,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 100.33 0)
+		(at 185.42 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5401,7 +5229,7 @@
 		(fields_autoplaced yes)
 		(uuid "be5b2d66-295c-4960-ae58-52f796784791")
 		(property "Reference" "#PWR01"
-			(at 167.64 106.68 0)
+			(at 185.42 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5412,7 +5240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 105.41 0)
+			(at 185.42 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5422,7 +5250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 100.33 0)
+			(at 185.42 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5433,7 +5261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 100.33 0)
+			(at 185.42 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5444,7 +5272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 100.33 0)
+			(at 185.42 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5468,7 +5296,7 @@
 	)
 	(symbol
 		(lib_id "my_simbles:E220-900T22S(JP)-EV2")
-		(at 138.43 113.03 0)
+		(at 148.59 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5478,7 +5306,7 @@
 		(dnp no)
 		(uuid "dfc7d5fb-9abe-465f-a108-295f86f3a6e9")
 		(property "Reference" "U2"
-			(at 138.43 99.314 0)
+			(at 148.59 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5488,7 +5316,7 @@
 			)
 		)
 		(property "Value" "E220-900T22S（JP）-EV2"
-			(at 138.176 101.092 0)
+			(at 148.336 144.272 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5499,7 +5327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 113.03 0)
+			(at 148.59 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5510,7 +5338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 113.03 0)
+			(at 148.59 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5521,7 +5349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 113.03 0)
+			(at 148.59 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
