@@ -3390,6 +3390,309 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push_Dual"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_Dual"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, symbol, four pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_0_1"
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 0 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_1_1"
+				(rectangle
+					(start -3.175 5.715)
+					(end 3.175 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "my_simbles:E220-900T22S(JP)-EV2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3773,6 +4076,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 179.07 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5295339a-c8d8-4271-880a-d68b5adb5dd0")
+	)
+	(junction
+		(at 123.19 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4bbf081-438e-4ef6-98db-15c6e9176a82")
+	)
 	(bus
 		(pts
 			(xy 69.85 146.05) (xy 69.85 181.61)
@@ -3782,6 +4097,36 @@
 			(type default)
 		)
 		(uuid "09cb574c-a8c4-4b91-8d2d-d7010a3470ba")
+	)
+	(bus
+		(pts
+			(xy 124.46 106.68) (xy 168.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b12f71b-7256-4e53-89c4-72c5be28cf21")
+	)
+	(bus
+		(pts
+			(xy 182.88 115.57) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16460065-760a-421c-b7f3-505effd29c8f")
+	)
+	(bus
+		(pts
+			(xy 119.38 146.05) (xy 123.19 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d359fe4-f64c-4000-9a7d-a1d0fe501cdb")
 	)
 	(bus
 		(pts
@@ -3795,6 +4140,16 @@
 	)
 	(bus
 		(pts
+			(xy 130.81 115.57) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2331281b-8e47-4a51-bee8-66e2bfbf86aa")
+	)
+	(bus
+		(pts
 			(xy 134.62 173.99) (xy 134.62 153.67)
 		)
 		(stroke
@@ -3805,7 +4160,17 @@
 	)
 	(bus
 		(pts
-			(xy 83.82 151.13) (xy 63.5 151.13)
+			(xy 124.46 140.97) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a9eb96-6745-4e6e-ab6d-491e1d8ad915")
+	)
+	(bus
+		(pts
+			(xy 83.82 151.13) (xy 58.42 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3815,13 +4180,13 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 138.43) (xy 186.69 138.43)
+			(xy 179.07 115.57) (xy 182.88 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c4c9355-10cf-4498-9642-1c6b8869aeab")
+		(uuid "2c4fe90d-e39e-4f54-a113-ddd2e45d0dce")
 	)
 	(bus
 		(pts
@@ -3835,6 +4200,16 @@
 	)
 	(bus
 		(pts
+			(xy 127 111.76) (xy 168.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e38dde5-751a-43be-abce-0e1cdba73324")
+	)
+	(bus
+		(pts
 			(xy 134.62 153.67) (xy 139.7 153.67)
 		)
 		(stroke
@@ -3843,9 +4218,19 @@
 		)
 		(uuid "3038261e-e244-40c0-b10e-6ffd2ab2587e")
 	)
+	(bus
+		(pts
+			(xy 179.07 106.68) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3092cd10-e0a2-4bf4-8a2e-2e34228d72d0")
+	)
 	(wire
 		(pts
-			(xy 60.96 153.67) (xy 60.96 118.11)
+			(xy 62.23 153.67) (xy 62.23 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3875,6 +4260,16 @@
 	)
 	(bus
 		(pts
+			(xy 119.38 140.97) (xy 124.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4916eba3-89cc-4c30-b12d-13df5df24a82")
+	)
+	(bus
+		(pts
 			(xy 127 151.13) (xy 139.7 151.13)
 		)
 		(stroke
@@ -3885,7 +4280,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 118.11) (xy 182.88 143.51)
+			(xy 157.48 116.84) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3895,13 +4290,33 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 143.51) (xy 186.69 143.51)
+			(xy 157.48 143.51) (xy 166.37 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e5fed59-1979-4884-82dd-a9861fc8dd87")
+	)
+	(bus
+		(pts
+			(xy 179.07 111.76) (xy 179.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7dd2b1-e08c-4866-a714-50f1995723e4")
+	)
+	(bus
+		(pts
+			(xy 127 143.51) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f9cc5a-737e-4d3a-a799-9a34a5c1b142")
 	)
 	(bus
 		(pts
@@ -3953,6 +4368,26 @@
 		)
 		(uuid "6f6cf461-8430-4784-a8c8-adc506d51c04")
 	)
+	(wire
+		(pts
+			(xy 166.37 138.43) (xy 119.38 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bec41e3-3f5e-4dcf-8085-39961755341a")
+	)
+	(bus
+		(pts
+			(xy 130.81 115.57) (xy 179.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e92be1e-e927-4c87-bb6e-4a7c68b133e7")
+	)
 	(bus
 		(pts
 			(xy 76.2 140.97) (xy 76.2 173.99)
@@ -3972,6 +4407,16 @@
 			(type default)
 		)
 		(uuid "919b6612-07ce-4bf8-b0bf-76a627905a77")
+	)
+	(bus
+		(pts
+			(xy 119.38 143.51) (xy 127 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9220b16c-855d-4b70-af96-8932674f6315")
 	)
 	(bus
 		(pts
@@ -4005,6 +4450,26 @@
 	)
 	(bus
 		(pts
+			(xy 123.19 148.59) (xy 123.19 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4999a49-455e-4b32-9ee3-04ffe4e3237a")
+	)
+	(bus
+		(pts
+			(xy 123.19 146.05) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4be56e8-7e61-4ae7-8342-487ac0dd4e92")
+	)
+	(bus
+		(pts
 			(xy 83.82 140.97) (xy 76.2 140.97)
 		)
 		(stroke
@@ -4015,7 +4480,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 153.67) (xy 60.96 153.67)
+			(xy 83.82 153.67) (xy 62.23 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4032,6 +4497,16 @@
 			(type default)
 		)
 		(uuid "ddd74990-b828-4b0b-99e9-3bbdab452bf2")
+	)
+	(bus
+		(pts
+			(xy 119.38 148.59) (xy 123.19 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de82b4a8-8c89-42a7-904b-f33a82d1ae25")
 	)
 	(bus
 		(pts
@@ -4055,7 +4530,7 @@
 	)
 	(bus
 		(pts
-			(xy 63.5 120.65) (xy 187.96 120.65)
+			(xy 58.42 119.38) (xy 168.91 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4075,7 +4550,7 @@
 	)
 	(bus
 		(pts
-			(xy 63.5 151.13) (xy 63.5 120.65)
+			(xy 58.42 151.13) (xy 58.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4570,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 118.11) (xy 182.88 118.11)
+			(xy 62.23 116.84) (xy 157.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4452,7 +4927,7 @@
 	)
 	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 196.85 140.97 0)
+		(at 176.53 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4463,7 +4938,7 @@
 		(fields_autoplaced yes)
 		(uuid "215f8db3-c8c0-4421-a449-fb2b32ea6843")
 		(property "Reference" "U4"
-			(at 205.74 139.6999 0)
+			(at 185.42 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4474,7 +4949,7 @@
 			)
 		)
 		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 205.74 142.2399 0)
+			(at 185.42 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4485,7 +4960,7 @@
 			)
 		)
 		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
-			(at 214.884 153.67 0)
+			(at 194.564 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4496,7 +4971,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 239.522 155.702 0)
+			(at 219.202 155.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,7 +4982,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 223.52 157.734 0)
+			(at 203.2 157.734 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4660,7 +5135,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 190.5 123.19 0)
+		(at 171.45 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4671,7 +5146,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d826d31-67ea-4f1a-9d65-a7cf63e1cc35")
 		(property "Reference" "BZ1"
-			(at 194.31 121.9199 0)
+			(at 175.26 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4682,7 +5157,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 194.31 124.4599 0)
+			(at 175.26 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4693,7 +5168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.865 120.65 90)
+			(at 170.815 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,7 +5179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 120.65 90)
+			(at 170.815 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +5190,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 190.5 123.19 0)
+			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,6 +5468,92 @@
 			(project "Coco_Seal_hardware"
 				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual")
+		(at 173.99 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a65ed0a-c76b-46dc-ac4d-4b32d65d33d6")
+		(property "Reference" "SW1"
+			(at 173.99 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Dual"
+			(at 173.99 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "316140f3-2f7f-49bb-b5ca-2a5a3f0f5f33")
+		)
+		(pin "1"
+			(uuid "2cd2708a-e1f4-4da4-a650-3a26f881ad26")
+		)
+		(pin "2"
+			(uuid "e1571c4c-8865-47e7-8381-3f7cdf3267f2")
+		)
+		(pin "3"
+			(uuid "c0555834-6400-4a91-9953-1c6a70377a5c")
+		)
+		(instances
+			(project "Coco_Seal_hardware"
+				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
