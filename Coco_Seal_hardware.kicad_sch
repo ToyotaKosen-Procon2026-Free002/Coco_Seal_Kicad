@@ -3913,9 +3913,259 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus
+		(pts
+			(xy 59.69 102.87) (xy 59.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cb574c-a8c4-4b91-8d2d-d7010a3470ba")
+	)
+	(bus
+		(pts
+			(xy 73.66 102.87) (xy 59.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fdf158a-8639-4933-9bc8-f36a7d0786dd")
+	)
+	(bus
+		(pts
+			(xy 124.46 130.81) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2485ab40-5e4b-4c6c-8c1f-b339f4602fdd")
+	)
+	(bus
+		(pts
+			(xy 66.04 130.81) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c71b94f-5536-4923-9317-b0c3febcae47")
+	)
+	(bus
+		(pts
+			(xy 124.46 110.49) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3038261e-e244-40c0-b10e-6ffd2ab2587e")
+	)
+	(bus
+		(pts
+			(xy 73.66 95.25) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdd33c9-3281-435f-8741-a24941957bc2")
+	)
+	(bus
+		(pts
+			(xy 59.69 138.43) (xy 119.38 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40146197-ea23-4c5c-9e8f-e1a902cbd325")
+	)
+	(bus
+		(pts
+			(xy 116.84 107.95) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2a8028-ac5f-4513-8acc-0c54b8d65165")
+	)
+	(bus
+		(pts
+			(xy 116.84 142.24) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631eb8c6-9e6e-4ccd-8ad7-82359596e6c0")
+	)
+	(bus
+		(pts
+			(xy 62.23 134.62) (xy 121.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c5be82-6b3a-430d-909a-3e464591211c")
+	)
+	(bus
+		(pts
+			(xy 127 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649a008e-7881-457f-8f01-b1178f1a5471")
+	)
+	(bus
+		(pts
+			(xy 69.85 95.25) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aea1060-579c-4b4e-a612-6d2d5586b335")
+	)
+	(bus
+		(pts
+			(xy 73.66 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6cf461-8430-4784-a8c8-adc506d51c04")
+	)
+	(bus
+		(pts
+			(xy 66.04 97.79) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb17662-3764-49e2-a67d-17945499b369")
+	)
+	(bus
+		(pts
+			(xy 119.38 138.43) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919b6612-07ce-4bf8-b0bf-76a627905a77")
+	)
+	(bus
+		(pts
+			(xy 119.38 105.41) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f527c10-5cbb-4d4e-bbfd-ab50acae749b")
+	)
+	(bus
+		(pts
+			(xy 121.92 115.57) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e52697-3b17-4afd-8ad9-4a76f6e11584")
+	)
+	(bus
+		(pts
+			(xy 121.92 134.62) (xy 121.92 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc0f1e7-9f0e-4936-bb03-951cf43b373a")
+	)
+	(bus
+		(pts
+			(xy 73.66 97.79) (xy 66.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e30ca4-4f15-4aec-8d34-e4c56ade8e39")
+	)
+	(bus
+		(pts
+			(xy 69.85 128.27) (xy 127 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd74990-b828-4b0b-99e9-3bbdab452bf2")
+	)
+	(bus
+		(pts
+			(xy 57.15 142.24) (xy 116.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5d149d-1cc8-43a6-9a71-5f33605c8c46")
+	)
+	(bus
+		(pts
+			(xy 73.66 105.41) (xy 57.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d93ca6-2b4c-4a6b-8241-86ef380c4c09")
+	)
+	(bus
+		(pts
+			(xy 62.23 100.33) (xy 62.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49384c1-30ad-4d7d-8ba4-ba829bab539a")
+	)
+	(bus
+		(pts
+			(xy 57.15 105.41) (xy 57.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ca0aac-7c4d-4794-a5a4-4e64869928bd")
+	)
+	(bus
+		(pts
+			(xy 127 128.27) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5b5ae8-d79b-41ee-9678-ca44e25765f1")
+	)
 	(symbol
 		(lib_id "ESP32-C3-WROOM-02-N4:ESP32-C3-WROOM-02-N4")
-		(at 91.44 97.79 0)
+		(at 91.44 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3926,7 +4176,7 @@
 		(fields_autoplaced yes)
 		(uuid "12f51087-8f54-46f9-a5c4-f14050b094a4")
 		(property "Reference" "U1"
-			(at 91.44 72.39 0)
+			(at 91.44 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3936,7 +4186,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02-N4"
-			(at 91.44 74.93 0)
+			(at 91.44 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3946,7 +4196,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-C3-WROOM-02-N4:MODULE_ESP32-C3-WROOM-02-H4"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3958,7 +4208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +4219,7 @@
 			)
 		)
 		(property "Description" "WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +85 C"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,7 +4231,7 @@
 			)
 		)
 		(property "MF" "Espressif Systems"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3993,7 +4243,7 @@
 			)
 		)
 		(property "PACKAGE" "Package"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,7 +4255,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4017,7 +4267,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4029,7 +4279,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=eda"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,7 +4291,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,7 +4303,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=snap"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4065,7 +4315,7 @@
 			)
 		)
 		(property "MP" "ESP32-C3-WROOM-02-N4"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4077,7 +4327,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5683419&manufacturer=Espressif Systems&part_name=ESP32-C3-WROOM-02-N4&search_term=esp32-c3-wroom-02-n4"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4089,7 +4339,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4101,7 +4351,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4363,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda"
-			(at 91.44 97.79 0)
+			(at 91.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4997,7 +5247,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 46.99 93.98 0)
+		(at 34.29 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5008,7 +5258,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7b0d1ef-a2f5-464a-ae68-50002100a9f7")
 		(property "Reference" "P1"
-			(at 46.99 71.12 0)
+			(at 34.29 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5018,7 +5268,7 @@
 			)
 		)
 		(property "Value" "USB_C_Plug_USB2.0"
-			(at 46.99 73.66 0)
+			(at 34.29 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5028,7 +5278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 93.98 0)
+			(at 38.1 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +5289,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 50.8 93.98 0)
+			(at 38.1 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5050,7 +5300,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 46.99 93.98 0)
+			(at 34.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5188,7 +5438,7 @@
 	)
 	(symbol
 		(lib_id "my_simbles:E220-900T22S(JP)-EV2")
-		(at 133.35 73.66 0)
+		(at 138.43 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5198,7 +5448,7 @@
 		(dnp no)
 		(uuid "dfc7d5fb-9abe-465f-a108-295f86f3a6e9")
 		(property "Reference" "U2"
-			(at 133.35 59.944 0)
+			(at 138.43 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5208,7 +5458,7 @@
 			)
 		)
 		(property "Value" "E220-900T22S（JP）-EV2"
-			(at 133.096 61.722 0)
+			(at 138.176 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5219,7 +5469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 73.66 0)
+			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,7 +5480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 73.66 0)
+			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5241,7 +5491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 73.66 0)
+			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
