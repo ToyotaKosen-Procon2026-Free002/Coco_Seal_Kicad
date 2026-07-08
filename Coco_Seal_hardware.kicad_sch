@@ -4077,16 +4077,46 @@
 		)
 	)
 	(junction
+		(at 85.09 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13e59a8b-90c8-4127-8737-9c79180951e2")
+	)
+	(junction
+		(at 85.09 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "330cc56f-3695-47f5-99c5-ebdfd0617dfe")
+	)
+	(junction
 		(at 179.07 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5295339a-c8d8-4271-880a-d68b5adb5dd0")
 	)
 	(junction
+		(at 119.38 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56912aae-512e-433f-9ee5-1956b77fc5d0")
+	)
+	(junction
+		(at 85.09 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d3e461b-5e71-42f7-b6c7-ea95407c0f6b")
+	)
+	(junction
 		(at 123.19 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4bbf081-438e-4ef6-98db-15c6e9176a82")
+	)
+	(junction
+		(at 160.02 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9c5423c-813b-49e3-b299-6667dda41ab1")
 	)
 	(bus
 		(pts
@@ -4107,6 +4137,16 @@
 			(type default)
 		)
 		(uuid "0b12f71b-7256-4e53-89c4-72c5be28cf21")
+	)
+	(bus
+		(pts
+			(xy 119.38 130.81) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105ab2b2-533a-4a9f-960d-234dce1564f2")
 	)
 	(bus
 		(pts
@@ -4147,6 +4187,16 @@
 			(type default)
 		)
 		(uuid "2331281b-8e47-4a51-bee8-66e2bfbf86aa")
+	)
+	(bus
+		(pts
+			(xy 119.38 163.83) (xy 119.38 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e217a1-1ef8-4808-8b34-8652c85de527")
 	)
 	(bus
 		(pts
@@ -4350,6 +4400,16 @@
 	)
 	(bus
 		(pts
+			(xy 85.09 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a3f0e3-a4bd-413c-b4ee-dff510c26bb1")
+	)
+	(bus
+		(pts
 			(xy 80.01 138.43) (xy 80.01 171.45)
 		)
 		(stroke
@@ -4360,6 +4420,26 @@
 	)
 	(bus
 		(pts
+			(xy 85.09 80.01) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afda262-cf53-428d-ac6c-bf4033302952")
+	)
+	(bus
+		(pts
+			(xy 95.25 55.88) (xy 97.79 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1a4328-27ba-4aa6-8eaa-b52cec5ec114")
+	)
+	(bus
+		(pts
 			(xy 83.82 143.51) (xy 72.39 143.51)
 		)
 		(stroke
@@ -4367,6 +4447,16 @@
 			(type default)
 		)
 		(uuid "6f6cf461-8430-4784-a8c8-adc506d51c04")
+	)
+	(bus
+		(pts
+			(xy 160.02 148.59) (xy 160.02 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751edd4b-fe08-4853-8eb6-1af6860cd6c6")
 	)
 	(wire
 		(pts
@@ -4390,6 +4480,26 @@
 	)
 	(bus
 		(pts
+			(xy 85.09 74.93) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c12319-61f1-4325-adad-7537c80349f7")
+	)
+	(bus
+		(pts
+			(xy 119.38 189.23) (xy 57.15 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87952d46-72fc-4049-9956-4a82455aa21a")
+	)
+	(bus
+		(pts
 			(xy 76.2 140.97) (xy 76.2 173.99)
 		)
 		(stroke
@@ -4397,6 +4507,26 @@
 			(type default)
 		)
 		(uuid "8eb17662-3764-49e2-a67d-17945499b369")
+	)
+	(bus
+		(pts
+			(xy 62.23 69.85) (xy 62.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdcc50b-fb6d-4d68-9fc9-6083d8f9a66d")
+	)
+	(bus
+		(pts
+			(xy 157.48 148.59) (xy 160.02 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905181ff-7d00-4c09-a9c0-d4aa76ce8ce5")
 	)
 	(bus
 		(pts
@@ -4410,6 +4540,16 @@
 	)
 	(bus
 		(pts
+			(xy 160.02 189.23) (xy 119.38 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a1cb7a-996d-4f17-aa6d-8e55afbca407")
+	)
+	(bus
+		(pts
 			(xy 119.38 143.51) (xy 127 143.51)
 		)
 		(stroke
@@ -4420,6 +4560,16 @@
 	)
 	(bus
 		(pts
+			(xy 160.02 151.13) (xy 160.02 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d327878-04d6-4762-8e36-3d593b824e63")
+	)
+	(bus
+		(pts
 			(xy 129.54 148.59) (xy 139.7 148.59)
 		)
 		(stroke
@@ -4427,6 +4577,26 @@
 			(type default)
 		)
 		(uuid "9f527c10-5cbb-4d4e-bbfd-ab50acae749b")
+	)
+	(bus
+		(pts
+			(xy 62.23 80.01) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c48e6a-4941-4acb-833c-f2d44b43c955")
+	)
+	(bus
+		(pts
+			(xy 97.79 88.9) (xy 97.79 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7312912-7d9e-4d36-8ca5-bfc019df743b")
 	)
 	(bus
 		(pts
@@ -4470,6 +4640,26 @@
 	)
 	(bus
 		(pts
+			(xy 97.79 88.9) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71777cc-7fc8-413a-b59d-c15193b755f1")
+	)
+	(bus
+		(pts
+			(xy 57.15 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caaddec0-f00f-490a-aa27-4a4ce453eeb9")
+	)
+	(bus
+		(pts
 			(xy 83.82 140.97) (xy 76.2 140.97)
 		)
 		(stroke
@@ -4477,6 +4667,16 @@
 			(type default)
 		)
 		(uuid "d1e30ca4-4f15-4aec-8d34-e4c56ade8e39")
+	)
+	(bus
+		(pts
+			(xy 160.02 151.13) (xy 176.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d268c62c-bf42-44fb-abaf-f5e278bca3bd")
 	)
 	(wire
 		(pts
@@ -4520,6 +4720,16 @@
 	)
 	(bus
 		(pts
+			(xy 57.15 189.23) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e1ab18-f0c6-4405-9ca3-afdf7a900fc4")
+	)
+	(bus
+		(pts
 			(xy 83.82 148.59) (xy 67.31 148.59)
 		)
 		(stroke
@@ -4547,6 +4757,16 @@
 			(type default)
 		)
 		(uuid "e49384c1-30ad-4d7d-8ba4-ba829bab539a")
+	)
+	(bus
+		(pts
+			(xy 85.09 88.9) (xy 85.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ad10e2-e44f-4497-8d2c-7914e253ea13")
 	)
 	(bus
 		(pts
@@ -5015,7 +5235,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:TPSM53602RDA")
-		(at 76.2 52.07 0)
+		(at 85.09 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5026,7 +5246,7 @@
 		(fields_autoplaced yes)
 		(uuid "335694d9-3e22-434d-a6fd-ffcdbae4d1f9")
 		(property "Reference" "U5"
-			(at 76.2 36.83 0)
+			(at 85.09 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5036,7 +5256,7 @@
 			)
 		)
 		(property "Value" "TPSM53602RDA"
-			(at 76.2 39.37 0)
+			(at 85.09 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5046,7 +5266,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm_ThermalVia"
-			(at 76.2 34.29 0)
+			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5278,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm53602.pdf"
-			(at 78.74 36.83 0)
+			(at 87.63 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,7 +5289,7 @@
 			)
 		)
 		(property "Description" "36-V, 2A input, stepdown, DC/DC converter, Texas B3QFN-14"
-			(at 76.2 52.07 0)
+			(at 85.09 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5216,8 +5436,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607f9767-54a8-4f4a-9e7b-ac261ccfc965")
+		(property "Reference" "#PWR01"
+			(at 85.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10c38eb7-da08-435d-8532-9c3d5fa5067b")
+		)
+		(instances
+			(project "Coco_Seal_hardware"
+				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:LTC4055")
-		(at 106.68 52.07 0)
+		(at 114.3 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5228,7 +5526,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fb30742-7bb1-4345-8162-a840400e476e")
 		(property "Reference" "U6"
-			(at 106.68 34.29 0)
+			(at 114.3 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5238,7 +5536,7 @@
 			)
 		)
 		(property "Value" "LTC4055"
-			(at 106.68 36.83 0)
+			(at 114.3 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5248,7 +5546,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm"
-			(at 106.68 74.93 0)
+			(at 114.3 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +5557,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4055fb.pdf"
-			(at 106.68 64.77 0)
+			(at 114.3 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5270,7 +5568,7 @@
 			)
 		)
 		(property "Description" "USB Power Controller and Li-Ion Charger (4.2V Float Voltage)"
-			(at 106.68 52.07 0)
+			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5561,7 +5859,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 46.99 53.34 0)
+		(at 62.23 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5572,7 +5870,7 @@
 		(fields_autoplaced yes)
 		(uuid "92602cf1-7bdd-444b-a6ba-6e7621aa1c01")
 		(property "Reference" "BT1"
-			(at 50.8 51.4984 0)
+			(at 66.04 62.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5583,7 +5881,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 50.8 54.0384 0)
+			(at 66.04 65.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5594,7 +5892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 51.816 90)
+			(at 62.23 63.246 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5605,7 +5903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 51.816 90)
+			(at 62.23 63.246 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5616,7 +5914,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 46.99 53.34 0)
+			(at 62.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5627,7 +5925,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 46.99 53.34 0)
+			(at 62.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5638,7 +5936,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 46.99 53.34 0)
+			(at 62.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5649,7 +5947,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 46.99 53.34 0)
+			(at 62.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,7 +5974,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 34.29 93.98 0)
+		(at 40.64 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5687,7 +5985,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7b0d1ef-a2f5-464a-ae68-50002100a9f7")
 		(property "Reference" "P1"
-			(at 34.29 71.12 0)
+			(at 40.64 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5697,7 +5995,7 @@
 			)
 		)
 		(property "Value" "USB_C_Plug_USB2.0"
-			(at 34.29 73.66 0)
+			(at 40.64 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5707,7 +6005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 93.98 0)
+			(at 44.45 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +6016,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 38.1 93.98 0)
+			(at 44.45 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5729,7 +6027,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 34.29 93.98 0)
+			(at 40.64 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5782,84 +6080,6 @@
 			(project "Coco_Seal_hardware"
 				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
 					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be5b2d66-295c-4960-ae58-52f796784791")
-		(property "Reference" "#PWR01"
-			(at 185.42 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ca13767-14dd-42d6-9afa-0af69a48ac7d")
-		)
-		(instances
-			(project "Coco_Seal_hardware"
-				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
