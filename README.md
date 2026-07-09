@@ -1,6 +1,6 @@
 # ココ・シール ハードウェア設計
 
-## データシート
+## データシートなど
 
 ### 基本的モジュール
 
@@ -21,3 +21,27 @@ OLED: [SSD1306](https://akizukidenshi.com/goodsaffix/ssd1306.pdf)
 Li-ion保護IC: [DW01A](https://hmsemi.com/downfile/DW01A.PDF)
 
 デュアルMOSFET: [FS8205A](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7158/5272_FS8205A.pdf)
+
+### その他
+
+ESD保護素子(D+D-の静電気などの保護): [TPD2EUSB30A](https://www.ti.com/product/ja-jp/TPD2EUSB30A)
+
+## GPIO割り当て
+
+|GPIO|機能|入出力|周辺回路|プルアップ/プルダウン|備考|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|0
+|1
+|2
+|3
+|4
+|5
+|6
+|7
+|8
+|9
+|10
+|18|USB D-|I/O|USB-C D-|-|ESD保護素子を挟む
+|19|USB D+|I/O|USB-C D+|-|ESD保護素子を挟む
+|20|UART TXD|OUT|LoRa RXD|-|固定|
+|21|UART RXD|IN|LoRa TXD|-|固定|
