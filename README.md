@@ -28,20 +28,22 @@ ESD保護素子(D+D-の静電気などの保護): [TPD2EUSB30A](https://www.ti.c
 
 ## GPIO割り当て
 
+Strapping pins に割り当てられているため、2, 8, 9 はちょっと使いづらい
+
 |GPIO|機能|入出力|周辺回路|プルアップ/プルダウン|備考|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|0
-|1
-|2
-|3
-|4
-|5
-|6
-|7
-|8
-|9
-|10
-|18|USB D-|I/O|USB-C D-|-|ESD保護素子を挟む
-|19|USB D+|I/O|USB-C D+|-|ESD保護素子を挟む
+|0|ADC|IN|バッテリー電圧分圧回路|-|R1=R2=100kΩくらい|
+|1|GPIO|IN|タクトスイッチ1|プルアップ|
+|2|GPIO|OUT|2色LED_R|プルアップ|Strapping Pin, 起動時に誤点灯の可能性あり|
+|3|GPIO|OUT|ブザー制御MOSFET|-|MOSFETを通してバッテリーから直で電源供給予定|
+|4|I2C|I/O|OLED SDA|-|おそらくモジュール側でPU実装済|
+|5|I2C|I/O|OLED SCK|-|おそらくモジュール側でPU実装済|
+|6|GPIO|OUT|LoRa M1|-|
+|7|GPIO|OUT|LoRa M0|-|
+|8|GPIO|OUT|2色LED_G|プルアップ|Strapping Pin, 起動時に誤点灯の可能性あり|
+|9|GPIO|IN|タクトスイッチ2|プルアップ|Strapping Pin, 押しながら起動するとDownload Mode として起動|
+|10|GPIO|IN|LoRa AUX|-|
+|18|USB D-|I/O|USB-C D-|-|ESD保護素子を挟む|
+|19|USB D+|I/O|USB-C D+|-|ESD保護素子を挟む|
 |20|UART TXD|OUT|LoRa RXD|-|固定|
 |21|UART RXD|IN|LoRa TXD|-|固定|
