@@ -31,6 +31,10 @@
   - [JLPCB](https://jlcpcb.com/partdetail/MurataElectronics-PKB24SPCH3601B0/C440255)
   - [データシート](https://akizukidenshi.com/goodsaffix/murata-piezo-buzzer.pdf)
 
+- 2色LED(LT6CU7R)
+  - [購入ページ](https://akizukidenshi.com/catalog/g/g108982/)
+  - [データシート](https://akizukidenshi.com/goodsaffix/LT6CU7R.pdf)
+
 ### バッテリー回路
 
 - 充電IC(TP4056-42-ESOP8)
@@ -50,6 +54,10 @@
 - ESD保護素子(D+D-の静電気などの保護)(TPD2EUSB30A)
   - [JLPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD2EUSB30ADRTR/C94934)
   - [データシート](https://www.ti.com/cn/lit/ds/symlink/tpd2eusb30a.pdf)
+
+- MMOSFET(AO3400A)
+  - [JLPCB](https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3400A/C20917)
+  - [データシート](./datasheets/AO3400A.pdf)
 
 ## GPIO割り当て
 
