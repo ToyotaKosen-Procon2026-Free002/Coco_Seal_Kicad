@@ -1,30 +1,55 @@
 # ココ・シール ハードウェア設計
 
-## データシートなど
+## 表面実装部品
+
+[JLPCB表面実装可能部品検索](https://jlcpcb.com/parts)
+
+データシートとか型番もここから持ってきたい
+
+## データシートや製品ページ
 
 ### 基本的モジュール
 
-MCU: [ESP32-C3-WROOM-02-N4](https://documentation.espressif.com/esp32-c3-wroom-02_datasheet_en.pdf)
+- MCU(ESP32-C3-WROOM-02-N4)
+  - [データシート](https://documentation.espressif.com/esp32-c3-wroom-02_datasheet_en.pdf)
+  - [JLPCB](https://jlcpcb.com/partdetail/3281215-ESP32_C3_WROOM_02N4/C2934560)
+  - [購入ページ](https://akizukidenshi.com/catalog/g/g117493/)
 
-LoRa: [E220-900T22S(JP)](https://dragon-torch.tech/rf-modules/lora/e220-900t22s-jp/#04)
+- LoRa(E220-900T22S(JP))
+  - [データシート](https://dragon-torch.tech/rf-modules/lora/e220-900t22s-jp/)
+  - [購入ページ](https://akizukidenshi.com/catalog/g/g131361/)
 
-3.3v 600mA レギュレータ: [AP2112K-3.3TRG1](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
+- 3.3v 600mA レギュレータ(AP2112K-3.3TRG1)
+  - [JLPCB](https://jlcpcb.com/partdetail/TECHPUBLIC-AP2112K_33TRG1/C23380830)
+  - [データシート](./datasheets/AP2112K.pdf)
 
-OLED: [SSD1306](https://akizukidenshi.com/goodsaffix/ssd1306.pdf)
+- OLED(SSD1306)
+  - [データシート](https://akizukidenshi.com/goodsaffix/ssd1306.pdf)
+  - [購入ページ](https://akizukidenshi.com/catalog/g/g112031/)
 
-ブザー: [PKB24SPCH3601-B0](https://akizukidenshi.com/goodsaffix/murata-piezo-buzzer.pdf)
+- ブザー(PKB24SPCH3601-B0)
+  - [JLPCB](https://jlcpcb.com/partdetail/MurataElectronics-PKB24SPCH3601B0/C440255)
+  - [データシート](https://akizukidenshi.com/goodsaffix/murata-piezo-buzzer.pdf)
 
 ### バッテリー回路
 
-充電IC: [TP4056](https://www.lcsc.com/datasheet/C16581.pdf)
+- 充電IC(TP4056-42-ESOP8)
+  - [JLPCB](https://jlcpcb.com/partdetail/17264-TP4056_42ESOP8/C16581)
+  - [データシート](https://www.lcsc.com/datasheet/C16581.pdf)
 
-Li-ion保護IC: [DW01A](https://hmsemi.com/downfile/DW01A.PDF)
+- Li-ion保護IC(DW01A)
+  - [JLPCB](https://jlcpcb.com/partdetail/PUOLOP-DW01A/C351410)
+  - [データシート](https://hmsemi.com/downfile/DW01A.PDF)
 
-デュアルMOSFET: [FS8205A](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7158/5272_FS8205A.pdf)
+- デュアルMOSFET(FS8205A)
+  - [JLPCB](https://jlcpcb.com/partdetail/TECHPUBLIC-FS8205A/C2830320)
+  - [データシート](./datasheets/FS8205A.pdf)
 
 ### その他
 
-ESD保護素子(D+D-の静電気などの保護): [TPD2EUSB30A](https://www.ti.com/product/ja-jp/TPD2EUSB30A)
+- ESD保護素子(D+D-の静電気などの保護)(TPD2EUSB30A)
+  - [JLPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD2EUSB30ADRTR/C94934)
+  - [データシート](https://www.ti.com/cn/lit/ds/symlink/tpd2eusb30a.pdf)
 
 ## GPIO割り当て
 
