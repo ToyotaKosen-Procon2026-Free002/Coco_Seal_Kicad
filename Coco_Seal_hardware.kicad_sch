@@ -1127,7 +1127,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery"
+		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1151,7 +1151,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Battery"
+			(property "Value" "Battery_Cell"
 				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1184,7 +1184,7 @@
 					)
 				)
 			)
-			(property "Description" "Multiple-cell battery"
+			(property "Description" "Single-cell battery"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1228,7 +1228,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "batt voltage-source cell"
+			(property "ki_keywords" "battery cell"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1239,7 +1239,7 @@
 					)
 				)
 			)
-			(symbol "Battery_0_1"
+			(symbol "Battery_Cell_0_1"
 				(rectangle
 					(start -2.286 1.778)
 					(end 2.286 1.524)
@@ -1252,30 +1252,8 @@
 					)
 				)
 				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -1.524 1.016)
 					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1298,31 +1276,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1357,7 +1311,7 @@
 					)
 				)
 			)
-			(symbol "Battery_1_1"
+			(symbol "Battery_Cell_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -1377,7 +1331,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -1557,6 +1511,161 @@
 					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4440,10 +4549,22 @@
 		(uuid "0624bf34-7073-4d28-a87b-6c55db5d8388")
 	)
 	(junction
+		(at 180.34 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19cbb226-6ab1-434d-aeae-7ee1ea112fc9")
+	)
+	(junction
 		(at 67.31 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a01fe9b-327a-4cd8-94ea-c7e3d1197249")
+	)
+	(junction
+		(at 140.97 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "371916a2-1d01-4961-a7d6-fe827780fd19")
 	)
 	(junction
 		(at 46.99 44.45)
@@ -4458,6 +4579,12 @@
 		(uuid "7997c176-3c13-4092-9644-247d71a14ae1")
 	)
 	(junction
+		(at 119.38 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "831404ba-e6a2-4e5a-a4aa-155dd590bd38")
+	)
+	(junction
 		(at 60.96 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4468,6 +4595,28 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddba591a-baa2-40af-8d22-e9f4aac0b692")
+	)
+	(junction
+		(at 119.38 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7137033-428c-4231-a95f-145015ebcb7d")
+	)
+	(junction
+		(at 140.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecf7718f-4b23-4320-a4f2-2af5d1e0142a")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 119.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033195c3-b574-40f4-843b-94641aeb9486")
 	)
 	(wire
 		(pts
@@ -4481,6 +4630,36 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 46.99) (xy 162.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06abaf05-64a5-4941-9c4e-c774604d718d")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0815339a-d5ff-4e55-a79e-5bd470ef654e")
+	)
+	(wire
+		(pts
+			(xy 149.86 58.42) (xy 170.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a976332-efcb-4911-837a-e5bc26ae19c9")
+	)
+	(wire
+		(pts
 			(xy 46.99 54.61) (xy 46.99 52.07)
 		)
 		(stroke
@@ -4488,6 +4667,26 @@
 			(type default)
 		)
 		(uuid "121f9ff8-6ede-4b7d-88b0-2657bdc29e17")
+	)
+	(wire
+		(pts
+			(xy 180.34 49.53) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213de10f-db88-407e-840c-41b155cab96e")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23853782-03ab-4e1c-b19c-5e2d9cffe460")
 	)
 	(wire
 		(pts
@@ -4511,6 +4710,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 34.29) (xy 130.81 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e0c011-7b68-4f2b-b42c-52c633a9c98f")
+	)
+	(wire
+		(pts
 			(xy 46.99 36.83) (xy 46.99 39.37)
 		)
 		(stroke
@@ -4531,6 +4740,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 30.48) (xy 119.38 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654d2b23-129c-4e44-92d5-53baef7aa443")
+	)
+	(wire
+		(pts
+			(xy 162.56 50.8) (xy 175.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69da3245-7cbd-46af-bbd0-bb3dd8b94670")
+	)
+	(wire
+		(pts
 			(xy 67.31 54.61) (xy 67.31 52.07)
 		)
 		(stroke
@@ -4538,6 +4767,16 @@
 			(type default)
 		)
 		(uuid "6f300c64-948f-4008-b0d5-13bd45e5be5d")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f6d48b-3702-41e9-9a99-ee976b1fa835")
 	)
 	(wire
 		(pts
@@ -4551,6 +4790,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 41.91) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c90726-332a-492d-9868-ea296e647316")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98453264-e6b2-4c82-a6d7-82220bdebede")
+	)
+	(wire
+		(pts
 			(xy 46.99 41.91) (xy 46.99 44.45)
 		)
 		(stroke
@@ -4558,6 +4817,26 @@
 			(type default)
 		)
 		(uuid "a4a97453-573c-4394-be5c-23947b727b66")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 184.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3f154e-4f53-46bd-801f-b9937120129b")
+	)
+	(wire
+		(pts
+			(xy 138.43 34.29) (xy 140.97 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b714ab37-c578-4fa0-b3dd-71c25381aa04")
 	)
 	(wire
 		(pts
@@ -4571,6 +4850,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 50.8) (xy 157.48 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e055c026-de86-4289-a6ae-e7d2a7612824")
+	)
+	(wire
+		(pts
 			(xy 31.75 62.23) (xy 24.13 62.23)
 		)
 		(stroke
@@ -4581,6 +4870,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 34.29) (xy 149.86 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08ab242-e468-486c-9278-4e6ff1876236")
+	)
+	(wire
+		(pts
 			(xy 54.61 29.21) (xy 60.96 29.21)
 		)
 		(stroke
@@ -4588,6 +4887,16 @@
 			(type default)
 		)
 		(uuid "f52107de-b90d-41b8-9860-6f1120018bae")
+	)
+	(wire
+		(pts
+			(xy 170.18 41.91) (xy 180.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6de3817-162e-43d4-981e-2b4e8bd1c29a")
 	)
 	(global_label "GPIO5"
 		(shape input)
@@ -4645,6 +4954,28 @@
 		(uuid "10c7beec-99d0-4cfe-893c-4da103463c0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "BATT+"
+		(shape input)
+		(at 119.38 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18e7f289-8b69-43a6-96a2-0e34eb6b9607")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4917,6 +5248,28 @@
 		(uuid "7dd91a56-6b86-440b-b168-cc08ca86ff1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.56 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "BATT-"
+		(shape input)
+		(at 184.15 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a3a026a-c059-4585-8297-0b532c3e85a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5719,7 +6072,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
-		(at 148.59 57.15 0)
+		(at 144.78 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5730,29 +6083,27 @@
 		(fields_autoplaced yes)
 		(uuid "22409c8d-8b47-46c4-8f79-02a2c8340501")
 		(property "Reference" "Q1"
-			(at 154.94 55.8799 0)
+			(at 144.78 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1"
-			(at 154.94 58.4199 0)
+			(at 144.78 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 153.67 57.15 0)
+			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,7 +6114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 57.15 0)
+			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +6125,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 148.59 57.15 0)
+			(at 144.78 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5890,9 +6241,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
-		(at 167.64 52.07 0)
-		(unit 2)
+		(lib_id "Device:R")
+		(at 134.62 34.29 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5900,31 +6251,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "423f28f7-e44b-44f9-8518-df6eb87ec92b")
-		(property "Reference" "Q1"
-			(at 173.99 50.7999 0)
+		(uuid "287dacea-3d99-4b50-9a0d-58b137d5e23a")
+		(property "Reference" "R4"
+			(at 134.62 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1"
-			(at 173.99 53.3399 0)
+		(property "Value" "100"
+			(at 134.62 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 172.72 52.07 0)
+		(property "Footprint" ""
+			(at 134.62 36.068 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,7 +6284,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 52.07 0)
+			(at 134.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43d0a8e4-d8d3-4c31-ac9e-66619dd1f8a2")
+		)
+		(pin "1"
+			(uuid "95b882dc-a627-46d3-8386-f5ce08a1aa2e")
+		)
+		(instances
+			(project "Coco_Seal_hardware"
+				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
+		(at 175.26 55.88 90)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "423f28f7-e44b-44f9-8518-df6eb87ec92b")
+		(property "Reference" "Q1"
+			(at 175.26 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1"
+			(at 175.26 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 175.26 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +6376,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 167.64 52.07 0)
+			(at 175.26 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5979,6 +6409,121 @@
 				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
 					(reference "Q1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 119.38 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bb3b771-9071-4326-ace4-229bb172e904")
+		(property "Reference" "BT1"
+			(at 123.19 36.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 123.19 38.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 37.846 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 37.846 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 119.38 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 119.38 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 119.38 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 119.38 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d93b7fda-8888-495f-a833-dbfff4602893")
+		)
+		(pin "2"
+			(uuid "92e703e0-8760-4d3d-b611-297bf0b1f1e8")
+		)
+		(instances
+			(project "Coco_Seal_hardware"
+				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
+					(reference "BT1")
+					(unit 1)
 				)
 			)
 		)
@@ -6264,7 +6809,7 @@
 	)
 	(symbol
 		(lib_id "Battery_Management:TP4056-42-ESOP8")
-		(at 110.49 35.56 0)
+		(at 92.71 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6275,7 +6820,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b6306e3-18a2-45c8-b9a3-9a174ce5e3ab")
 		(property "Reference" "U6"
-			(at 112.6333 20.32 0)
+			(at 94.8533 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6286,7 +6831,7 @@
 			)
 		)
 		(property "Value" "TP4056-42-ESOP8"
-			(at 112.6333 22.86 0)
+			(at 94.8533 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6297,7 +6842,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
-			(at 110.998 58.42 0)
+			(at 93.218 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,7 +6853,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
-			(at 110.49 60.96 0)
+			(at 92.71 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6319,7 +6864,7 @@
 			)
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
-			(at 110.998 55.88 0)
+			(at 93.218 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6360,6 +6905,88 @@
 			(project "Coco_Seal_hardware"
 				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8859bf46-3a6a-4f84-b8ac-1c15acb19ac3")
+		(property "Reference" "C1"
+			(at 144.78 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 144.78 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.9352 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e8dba305-803a-43a6-8f92-d2699618d8f1")
+		)
+		(pin "1"
+			(uuid "66db45ac-882c-4f32-8676-7868636039bd")
+		)
+		(instances
+			(project "Coco_Seal_hardware"
+				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6446,121 +7073,6 @@
 			(project "Coco_Seal_hardware"
 				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery")
-		(at 114.3 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92602cf1-7bdd-444b-a6ba-6e7621aa1c01")
-		(property "Reference" "BT1"
-			(at 118.11 60.3884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
-			(at 118.11 62.9284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 60.706 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 60.706 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Multiple-cell battery"
-			(at 114.3 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 114.3 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 114.3 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 114.3 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41cfda03-bc9e-4cdb-9564-bb34427cac83")
-		)
-		(pin "2"
-			(uuid "99fa1aaa-289e-4300-8f87-b44589b7bd90")
-		)
-		(instances
-			(project "Coco_Seal_hardware"
-				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -6657,7 +7169,7 @@
 	)
 	(symbol
 		(lib_id "Battery_Management:DW01A")
-		(at 149.86 29.21 0)
+		(at 160.02 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6668,7 +7180,7 @@
 		(fields_autoplaced yes)
 		(uuid "c595a478-c578-4934-886a-b5ac297aa011")
 		(property "Reference" "U3"
-			(at 149.86 19.05 0)
+			(at 160.02 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6678,7 +7190,7 @@
 			)
 		)
 		(property "Value" "DW01A"
-			(at 149.86 21.59 0)
+			(at 160.02 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6688,7 +7200,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 149.86 29.21 0)
+			(at 160.02 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +7211,7 @@
 			)
 		)
 		(property "Datasheet" "https://hmsemi.com/downfile/DW01A.PDF"
-			(at 149.86 29.21 0)
+			(at 160.02 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6710,7 +7222,7 @@
 			)
 		)
 		(property "Description" "Overcharge, overcurrent and overdischarge protection IC for single cell lithium-ion/polymer battery"
-			(at 150.114 27.686 0)
+			(at 160.274 37.846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,6 +7516,88 @@
 			(project "Coco_Seal_hardware"
 				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9ed84be-53ae-47c0-807e-c3d4656b2d68")
+		(property "Reference" "R3"
+			(at 182.88 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 182.88 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.562 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59251867-5dfc-438c-92d9-dccebc0dda99")
+		)
+		(pin "1"
+			(uuid "87080b13-ed60-4148-9674-50745ff92c0d")
+		)
+		(instances
+			(project "Coco_Seal_hardware"
+				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
+					(reference "R3")
 					(unit 1)
 				)
 			)
