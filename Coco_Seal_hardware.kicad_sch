@@ -4824,6 +4824,12 @@
 		(uuid "1a01fe9b-327a-4cd8-94ea-c7e3d1197249")
 	)
 	(junction
+		(at 127 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20317b9b-e9f8-4e22-9224-4411b3890d17")
+	)
+	(junction
 		(at 162.56 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4926,12 +4932,6 @@
 		(uuid "c21b2607-6036-4f74-bde0-409a0a131767")
 	)
 	(junction
-		(at 118.11 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c916ecd9-df03-41c4-8711-8a98e599274c")
-	)
-	(junction
 		(at 139.7 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4968,6 +4968,12 @@
 		(uuid "ecf7718f-4b23-4320-a4f2-2af5d1e0142a")
 	)
 	(junction
+		(at 118.11 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edbef96d-2e08-4fc4-a526-69c3b539553d")
+	)
+	(junction
 		(at 120.65 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4978,6 +4984,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4e20991-8ea9-4b2a-ba14-c328070e8944")
+	)
+	(junction
+		(at 134.62 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8bab98c-c837-4b4b-ae9a-7b588af82856")
 	)
 	(junction
 		(at 143.51 179.07)
@@ -5415,7 +5427,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 118.11 99.06)
+			(xy 127 99.06) (xy 118.11 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5535,6 +5547,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 86.36) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c43f26-b71a-433a-af35-2ccd73ed73b3")
+	)
+	(wire
+		(pts
 			(xy 72.39 90.17) (xy 72.39 93.98)
 		)
 		(stroke
@@ -5552,6 +5574,16 @@
 			(type default)
 		)
 		(uuid "c48425c0-3162-4de5-a275-41b181211387")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c74ad280-44c4-4139-876e-ca9fde063021")
 	)
 	(wire
 		(pts
@@ -7946,7 +7978,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 99.06 0)
+		(at 134.62 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7957,7 +7989,7 @@
 		(fields_autoplaced yes)
 		(uuid "467b0a6e-2f12-4478-a5c2-25e7655ab6e6")
 		(property "Reference" "#PWR010"
-			(at 127 105.41 0)
+			(at 134.62 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7968,7 +8000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 104.14 0)
+			(at 134.62 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7978,7 +8010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 99.06 0)
+			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,7 +8021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 99.06 0)
+			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +8032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 99.06 0)
+			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8967,7 +8999,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 99.06 90)
+		(at 130.81 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8978,7 +9010,7 @@
 		(fields_autoplaced yes)
 		(uuid "63bbdf20-e551-47f2-811d-f864e5a853ce")
 		(property "Reference" "C6"
-			(at 123.19 91.44 90)
+			(at 130.81 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8988,7 +9020,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 123.19 93.98 90)
+			(at 130.81 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8998,7 +9030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 98.0948 0)
+			(at 134.62 98.0948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9009,7 +9041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 99.06 0)
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9020,7 +9052,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 99.06 0)
+			(at 130.81 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11377,6 +11409,86 @@
 			(project "Coco_Seal_hardware"
 				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f59016c4-189c-4b74-86f2-f279b6753ce8")
+		(property "Reference" "C8"
+			(at 130.81 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10μF"
+			(at 130.81 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 85.3948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b55a782f-45ca-4cc2-ba6a-bfd3d0e025e6")
+		)
+		(pin "1"
+			(uuid "6e713f16-70a5-4480-9134-4aa554b1e7c3")
+		)
+		(instances
+			(project "Coco_Seal_hardware"
+				(path "/32cbe908-45a7-4343-8d65-8d0ee985ed0b"
+					(reference "C8")
 					(unit 1)
 				)
 			)
