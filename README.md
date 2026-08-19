@@ -88,8 +88,8 @@ Strapping pins に割り当てられているため、2, 8, 9 はちょっと使
 |1|GPIO|IN|タクトスイッチ1|プルアップ|
 |2|GPIO|OUT|2色LED_R|プルアップ|Strapping Pin, 起動時に誤点灯の可能性あり|
 |3|GPIO|OUT|ブザー制御MOSFET|-|MOSFETを通してバッテリーから直で電源供給予定|
-|4|I2C|I/O|OLED SDA|-|おそらくモジュール側でPU実装済|
-|5|I2C|I/O|OLED SCK|-|おそらくモジュール側でPU実装済|
+|4|I2C|I/O|OLED SCK|-|おそらくモジュール側でPU実装済|
+|5|I2C|I/O|OLED SDA|-|おそらくモジュール側でPU実装済|
 |6|GPIO|OUT|LoRa M1|-|
 |7|GPIO|OUT|LoRa M0|-|
 |8|GPIO|OUT|2色LED_G|プルアップ|Strapping Pin, 起動時に誤点灯の可能性あり|
