@@ -7437,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SW-TH_4P-L12.0-W12.0-P5.00_TS-094"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 27.94 100.33 0)
 			(hide yes)
 			(show_name no)

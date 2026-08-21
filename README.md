@@ -68,6 +68,10 @@
   - 5.1k [JLCPCB](https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186)
   - 100k [JLCPCB](https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803)
 
+- タクトスイッチ
+  - SOS [購入ページ](https://akizukidenshi.com/catalog/g/g109827/)
+  - Common [JLCPCB](https://jlcpcb.com/partdetail/SHOUHAN-TS665TPZJ/C557600)
+
 ### その他
 
 - ESD保護素子(D+D-の静電気などの保護)(TPD2EUSB30A)
