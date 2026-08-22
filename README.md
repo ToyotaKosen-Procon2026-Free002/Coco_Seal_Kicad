@@ -61,6 +61,7 @@
   - [JLCPCB](https://jlcpcb.com/partdetail/SHOUHAN-TYPE_C_16PIN_2MD_073/C2765186)
 
 - 抵抗
+  - 100 [JLCPCB](https://jlcpcb.com/partdetail/23502-0603WAF1000T5E/C22775)
   - 330 [JLCPCB](https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138)
   - 1k [JLCPCB](https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190)
   - 10k [JLCPCB](https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804)
@@ -71,6 +72,7 @@
 - タクトスイッチ
   - SOS [購入ページ](https://akizukidenshi.com/catalog/g/g109827/)
   - Common [JLCPCB](https://jlcpcb.com/partdetail/SHOUHAN-TS665TPZJ/C557600)
+  - Reset [JLCPCB](https://jlcpcb.com/partdetail/Korean_HropartsElec-K2_6639DP_B4SW04/C83205)
 
 ### その他
 
